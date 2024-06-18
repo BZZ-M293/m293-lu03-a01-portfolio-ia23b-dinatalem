@@ -1,19 +1,85 @@
 <!DOCTYPE html>
-<html lang='de'>
-  <head>
-    <meta charset='UTF-8'>
-    <title>LU03.A01 - Portfolio</title>
-  </head>
-  <body>
-    Fügen Sie hier ein Bild von sich ein
-  
-    Namen und Vornamen
-    Adresse
-    
-    Beschreibung über Sie
-    
-    Hobbyliste
-    
-    Links zu Social-Media Plattformen
-  </body>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio - Max Mustermann</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 20px;
+    }
+    header {
+      text-align: center;
+    }
+    img.portrait {
+      border-radius: 50%;
+      width: 150px;
+      height: 150px;
+    }
+    section {
+      margin-bottom: 20px;
+    }
+    h2 {
+      border-bottom: 2px solid #ccc;
+      padding-bottom: 5px;
+    }
+    .hobbies-list, .favorites-list {
+      list-style-type: square;
+      padding-left: 20px;
+    }
+    .social-media a {
+      margin-right: 10px;
+    }
+  </style>
+</head>
+<body>
+<header>
+  <h1>Portfolio - Max Mustermann</h1>
+  <img class="portrait" src="https://thispersondoesnotexist.com/image" alt="Portrait von Max Mustermann">
+  <p>
+    <strong>Max Mustermann</strong><br>
+    Musterstraße 1, 12345 Musterstadt
+  </p>
+</header>
+
+<section>
+  <h2>Beschreibung über mich</h2>
+  <p>
+    Hallo, mein Name ist <strong>Max Mustermann</strong>. Ich bin ein erfundener Charakter, der in vielen Beispielen verwendet wird. Ich habe ein großes Interesse an <mark>Technologie</mark> und <mark>Kunst</mark>. Ich arbeite als <mark>Webentwickler</mark> und verbringe meine Freizeit gerne mit verschiedenen kreativen Projekten.
+  </p>
+</section>
+
+<section>
+  <h2>Meine Hobbys</h2>
+  <ul class="hobbies-list">
+    <li>Fotografie</li>
+    <li>Wandern</li>
+    <li>Lesen</li>
+    <li>Kochen</li>
+    <li>Programmieren</li>
+  </ul>
+</section>
+
+<section>
+  <h2>Meine Lieblingsessen</h2>
+  <ol class="favorites-list">
+    <li>Sushi</li>
+    <li>Pizza</li>
+    <li>Spaghetti Carbonara</li>
+    <li>Schweinebraten</li>
+    <li>Vegetarischer Burger</li>
+  </ol>
+</section>
+
+<section>
+  <h2>Social-Media Profile</h2>
+  <div class="social-media">
+    <a href="https://www.facebook.com" target="_blank">Facebook</a>
+    <a href="https://www.twitter.com" target="_blank">Twitter</a>
+    <a href="https://www.instagram.com" target="_blank">Instagram</a>
+    <a href="https://www.linkedin.com" target="_blank">LinkedIn</a>
+  </div>
+</section>
+</body>
 </html>
